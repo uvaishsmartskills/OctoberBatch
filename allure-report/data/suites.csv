@@ -1,0 +1,4 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","10816","@smoke Handling window","","2026-10-12","passed","2026-10-12","","ui-dropdown.spec.js","",""
+"","13152","Login Test","","2026-10-12","passed","2026-10-12","","ui-basic-test.spec.js","",""
+"","11244","@smoke Alert Frame Handling","","2026-10-12","passed","2026-10-12","","frames-alert.spec.js","",""

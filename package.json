@@ -1,0 +1,30 @@
+{
+  "name": "augustbatchplaywright",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test tests/WebAPIPart1.spec.js",
+    "regression": "npx playwright test",
+    "webTests": "npx playwright test --grep @web",
+    "APITests": "npx playwright test --grep @API",
+    "edgeNewConf": "npx playwright test --config playwright.config1.js --project=edge",
+    "cucumberRegression": "npx cucumber-js --tags \"@Regression\" --retry 1 --format html:cucumber-report.html --exit"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@azure/identity": "^4.14.1",
+    "@azure/playwright": "^1.1.6",
+    "@playwright/test": "^1.62.1",
+    "@types/node": "^26.2.0",
+    "allure-playwright": "^3.13.0",
+    "typescript": "^7.0.2"
+  },
+  "dependencies": {
+    "@cucumber/cucumber": "^13.3.0",
+    "exceljs": "^4.4.0"
+  }
+}
